@@ -103,7 +103,7 @@ int main() {
     time_t start, finish;
     double duration;
     start = clock();
-    std::ofstream outFile("/Users/sylee(0221)/Downloads/special_phy/double_pendulum_x.csv");
+    std::ofstream outFile("/Users/Downloads/special_phy/double_pendulum_x.csv");
     outFile << "Time,Theta1,Omega1,Theta2,Omega2\n";
     
     for (int i = 0; i < 5000; ++i) {
